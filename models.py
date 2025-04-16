@@ -5,6 +5,7 @@ from django.conf import settings
 
 class Photo(models.Model):
     CATEGORY_CHOICES = [
+        ('coverphoto', 'Cover Photo'),
         ('landscape', 'Landscape'),
         ('portrait', 'Portrait'),
         ('animal', 'Animal'),
